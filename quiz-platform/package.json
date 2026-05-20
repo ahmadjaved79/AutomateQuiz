@@ -1,0 +1,13 @@
+{
+  "name": "quizmaster-ai",
+  "version": "1.0.0",
+  "description": "AI-Powered Quiz & Examination Platform",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": ["quiz", "exam", "ai", "mern", "education"]
+}
