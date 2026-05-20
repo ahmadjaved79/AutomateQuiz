@@ -133,7 +133,7 @@ export default function AdminExams() {
                     </div>
 
                     <div className="text-xs text-gray-500">
-                      {new Date(exam.startTime).toLocaleString()} → {new Date(exam.endTime).toLocaleString()}
+                      {new Date(exam.startTime).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', hour12: false })} → {new Date(exam.endTime).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', hour12: false })}
                     </div>
                   </div>
 
